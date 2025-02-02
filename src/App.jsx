@@ -22,8 +22,8 @@ function App() {
   return (
     <>
       <h1 className='text-3xl text-blue-500 mb-6'>Display the results from above in a MUI table that takes half of the screen</h1>
-      <TableContainer className='md:max-w-[760px] max-w-[680px]' component={Paper}>
-      <Table sx={{ minWidth: 350 }} aria-label="simple table">
+      <TableContainer className='md:max-w-[760px] md:mx-auto max-w-[620px]' component={Paper}>
+      <Table aria-label="simple table">
         <TableHead>
         <TableCell align="center">UserId</TableCell>
             <TableCell align="center">Id</TableCell>
